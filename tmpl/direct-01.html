@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="A playground to play with SSRF attacks">
+    <meta name="author" content="CosmosCrew">
+ 
+    <title>Direct - 01</title>
+
+    <link href="https://bootswatch.com/4/darkly/bootstrap.min.css" rel="stylesheet">
+  </head>
+
+  <body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="#">SSRF Playground</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarColor01">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="/">Home</a>
+      </li>
+      <li class="nav-item">
+        <!--<a class="nav-link" href="tasks.html">Tasks</a>-->
+      </li>
+    </ul>
+  </div>
+</nav>
+    <div id="index" class="container">
+        <br><br>
+        <div class="jumbotron">
+            {{.Data}}
+        </div>
+        <br>
+
+    </div>
+
+  <br>
+  <footer>
+    <center>
+      <a href="https://github.com/cosmoscrew/deathstar">SSRF Playground</a> was made with <span style="color:red">♥</span> by
+      <a href="https://github.com/CosmosCrew" target="_blank" >CosmosCrew</a>
+    </center>
+  </footer>
+  <br>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  </body>
+</html>
+
