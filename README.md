@@ -2,6 +2,13 @@
 
 SSRF Playground is a platform to practice exploitation and testing for Server Side Request Forgery issues in web applications.
 
+### Setup
+
+Because this program using some package, you need to get it first:
+```bash
+go get github.com/sirupsen/logrus
+```
+
 ### How to play?
 
 Run the server by typing `go run .`
