@@ -40,6 +40,7 @@
                 <th scope="col">Name</th>
                 <th scope="col">URL</th>
                 <th scope="col">Difficulty</th>
+                <th scope="col">Detail</th>
               </tr>
             </thead>
             <tbody>
@@ -48,6 +49,21 @@
                 <th scope="row">Direct SSRF</th>
                 <td><a href="/direct-01">/direct-01</a></td>
                 <td><span class="badge badge-primary">Easy</span></td>
+                <td>Simplest Direct SSRF. Access the /flag page.</td>
+              </tr>
+              <tr class="table-active">
+                <th scope="row">1</th>
+                <th scope="row">Direct SSRF With Lame Blacklist</th>
+                <td><a href="/direct-02">/direct-02</a></td>
+                <td><span class="badge badge-primary">Easy</span></td>
+                <td>Direct SSRF where developer tried to add a lame filter. Access the /flag page.</td>
+              </tr>
+              <tr class="table-active">
+                <th scope="row">2</th>
+                <th scope="row">Direct SSRF With Better Blacklist</th>
+                <td><a href="/direct-03">/direct-03</a></td>
+                <td><span class="badge badge-warning">Medium</span></td>
+                <td>Direct SSRF where developer tried to add a stricter filter. Access the /flag page.</td>
               </tr>
             </tbody>
         </table>

@@ -26,6 +26,7 @@ func ExecuteTemplate(templ string, w http.ResponseWriter, data interface{}) {
 // PageVariables contains default variables for a template
 type PageVariables struct {
 	Data template.HTML
+	Title string
 }
 
 // SimpleGET makes a GET request to a URL

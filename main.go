@@ -26,6 +26,7 @@ func main() {
 
 	http.HandleFunc("/", indexHandler)
 	http.HandleFunc("/direct-01", direct01Handler)
+	http.HandleFunc("/direct-02", direct02Handler)
 
 	log.Fatal(http.ListenAndServe(fmt.Sprintf(":%d", *port), nil))
 }
